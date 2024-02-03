@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+  color: red;
+  background-color: aqua;
+  padding: 25px;
+  /* width: 320px;ma */
+  max-width: 24%;
+}
+
+#ans{
+  width: 26.6vw;
+  color: red;
+}
+
+.calc input{
+  width: 90px;
+  height: 80px;
+  background-color: aqua;
+  cursor: pointer;
+  color: red;
+}
