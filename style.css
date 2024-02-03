@@ -1,0 +1,45 @@
+/* h1{
+  text-align: center;
+  color: red;
+  background-color: aqua;
+  padding: 25px;
+  max-width: 24%;
+} */
+
+#ans{
+  width: 28.5vw;
+  color: red;
+}
+
+.calc input{
+  width: 96px;
+  height: 80px;
+  background-color: aqua;
+  cursor: pointer;
+  color: red;
+}
+
+
+
+/* Default styles for h1 */
+h1 {
+  text-align: center;
+  color: red;
+  background-color: aqua;
+  padding: 25px;
+  max-width: 26%;
+}
+
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  h1 {
+    max-width: 100%;
+  }
+
+  #ans {
+    width: 98%;
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */
